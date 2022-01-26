@@ -1,0 +1,46 @@
+<section class="chat">
+
+    <div class="chat__header" *ngIf='user!=null'>
+        <img [src]="user.photoURL">
+        <div class="chat__header__roomname">
+            <h4>{{ user.displayName}}</h4>
+        </div>
+        <div class="chat__header__icons">
+            <button mat-icon-button>
+                <mat-icon>search_outline</mat-icon>
+            </button>
+            <button mat-icon-button>
+                <mat-icon>more_vert</mat-icon>
+            </button>
+        </div>
+    </div>
+
+
+    <div class="chat__body" #scrollMe [scrollTop]="scrollMe.scrollHeight">
+        <router-outlet></router-outlet>
+    </div>
+
+
+    <div class="chat__footer">
+        <div class="start">
+            <button mat-icon-button>
+                <mat-icon>mood</mat-icon>
+            </button>
+            <button mat-icon-button>
+                <mat-icon>attach_file</mat-icon>
+            </button>
+        </div>
+
+        <form #form="ngForm" (ngSubmit)="onSubmit(form)">
+            <input type="text" name='message' placeholder="Type a message" [ngModel]>
+            <button type="submit" style="display: none;"></button>
+        </form>
+
+        <div class="end">
+            <button mat-icon-button>
+                <mat-icon>mic</mat-icon>
+            </button>
+        </div>
+
+    </div>
+</section>

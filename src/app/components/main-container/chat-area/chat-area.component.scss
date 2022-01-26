@@ -1,0 +1,86 @@
+.chat{
+    height: 100%;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .chat__header{
+        padding: 10px;
+        background-color: rgb(228, 226, 226);
+        max-height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        img{
+            width: 40px;
+            border-radius: 50px;
+            margin-left: 5px;
+        }
+        .chat__header__roomname{
+            float: left;
+            margin-left: 13px;
+            padding-top: 17px;
+            flex-grow: 2;
+            display: flex;
+            flex-direction: column;
+
+            h4{
+                font-weight:500;
+                font-size: 25px;
+            }
+        }
+        .chat__header__icons{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            button{
+                background-color: rgb(228, 226, 226);
+                border: none;
+                margin-left: 13px;
+            }
+        }
+    }
+
+
+    .chat__body{
+        flex: 1;
+        background-image: url("https://cdn.wallpapersafari.com/1/80/8DYndB.png");
+        overflow-y: scroll;
+        background-repeat: repeat;
+        background-position: center;
+       
+    }
+
+
+
+    .chat__footer{
+        padding: 10px;
+        background-color: rgb(228, 226, 226);
+        max-height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        button{
+            background-color: rgb(228, 226, 226);
+            border: none;
+        }
+        form{
+            flex: 1;
+            display: flex;
+            input{
+
+                flex: 1;
+                border: none;
+                padding: 10px 30px;
+                outline: none;   
+                font-size: 15px;
+                border-radius: 30px;
+            }
+        }
+        
+    }
+}

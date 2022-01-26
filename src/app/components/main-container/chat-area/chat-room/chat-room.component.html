@@ -1,0 +1,12 @@
+<div class="chat__area" id="chat-area">
+    <ng-container *ngFor="let msgs of allMsgs">
+        <div class="chat__area__message" [ngClass]="{ 'chat__area__message-owner':msgs.who==='sender'}">
+            <span class="chat__area__message__text">{{msgs.message}}</span>
+            <span class="chat__area__message__time">{{msgs.time.seconds*1000 | date:'medium'}}</span>
+        </div>
+    </ng-container>
+
+    <ng-template>
+        <h1 style="text-align: center;">No Messages</h1>
+    </ng-template>
+</div>
