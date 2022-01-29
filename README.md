@@ -1,22 +1,22 @@
-// ABOUT THIS APP
+### ABOUT THIS APP
 
-=> This is a whatsApp clone app. I have created this app exactly same as whatsApp web.
+#### This is a whatsApp clone app. I have created this app exactly same as whatsApp web.
 
-=> I have added real-time chat functionality also. any logged In user can message to another user.
+- I have added real-time chat functionality also. any logged In user can message to another user.
+- uers will get messages in real-time instantly.
+- signIn using google is mendotory to use our chat functionality.
 
-=> users will get messages in real-time instantly.
+## TECHNOLOGIES USED FOR THIS PROJECT
 
-=> signIn using google is mendotory to use our chat functionality.
+```c++ 
+HTML , CSS , TYPESCRIPT , ANGULAR , FIREBASE
+```
 
-// TECHNOLOGIES USED FOR THIS PROJECT
+## LINK OF THIS APP
 
-=> HTML , SASS , TYPESCRIPT , ANGULAR , FIREBASE
+This app is deployed here. [Link](https://whatsapp-clone-b5d80.web.app)
 
-// LINK OF THIS APP
-
-=> https://whatsapp-clone-b5d80.web.app
-
-// SOME SCREENSHOTS OF THIS APP
+## SOME SCREENSHOTS OF THIS APP
 
 ![wa-login](https://user-images.githubusercontent.com/38484556/151649118-b1a17c26-4128-4cf5-9efb-2fcf0a29b980.png)
 
