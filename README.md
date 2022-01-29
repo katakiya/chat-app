@@ -1,13 +1,19 @@
 // ABOUT THIS APP
+
 => This is a whatsApp clone app. I have created this app exactly same as whatsApp web.
+
 => I have added real-time chat functionality also. any logged In user can message to another user.
+
 => users will get messages in real-time instantly.
+
 => signIn using google is mendotory to use our chat functionality.
 
 // TECHNOLOGIES USED FOR THIS PROJECT
+
 => HTML , CSS , TYPESCRIPT , ANGULAR , FIREBASE
 
 // LINK OF THIS APP
+
 => https://whatsapp-clone-b5d80.web.app
 
 // SOME SCREENSHOTS OF THIS APP
